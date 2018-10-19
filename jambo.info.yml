@@ -1,13 +1,13 @@
-name: Bootstrap Barrio Subtheme
+name: Jambo News Theme
 type: theme
-description: 'Basic structure for a Bootstrap Barrio SubTheme.'
+description: 'Jambo News Theme is BS4 based Barrio SubTheme.'
 # version: VERSION
 # core: 8.x
 base theme: bootstrap_barrio
 
 libraries:
-  - bootstrap_barrio_subtheme/bootstrap_cdn
-  - bootstrap_barrio_subtheme/global-styling
+  - jambo/bootstrap_cdn
+  - jambo/global-styling
 
 regions:
   top_header: 'Top Header'
