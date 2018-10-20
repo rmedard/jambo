@@ -75,8 +75,8 @@
             {% if container_navbar %}
             <div class="container">
                 {% endif %}
-                {{ page.secondary_menu }}
-                {{ page.top_header }}
+                {#{{ page.secondary_menu }}#}
+                {#{{ page.top_header }}#}
 
                 {#--Custom menu--#}
                 {% if page.top_header %}
@@ -84,7 +84,7 @@
                             data-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false"
                             aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="CollapsingNavbar">
-                        {{ page.primary_menu }}
+                        {{ page.top_header }}
                         {% if page.header_form %}
                             <div class="form-inline navbar-form float-right">
                                 {{ page.header_form }}
